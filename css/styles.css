@@ -18,6 +18,10 @@ border-bottom-left-radius: 45px;
   margin-bottom: 0px;
   border-radius: 25px;
   border-bottom-right-radius: 1px;
+  background-color: #203f90;
+  color: white;
+  font-size: 13pt;
+  border: 3px solid #c08e42;
 }
 
 h4 {
@@ -37,10 +41,18 @@ h4 {
 }
 
 
-#vaca-form {
+img {
+  height: 345px;
+
+}
+
+
+
+#pizza-form {
+  color: #203f90;
   background-color: rgba(221, 79, 33, 0.88);
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 22px;
   padding-top: 22px;
   width: 400px;
@@ -58,9 +70,9 @@ h4 {
 label {
   font-family: sans-serif;
   font-weight: normal;
-  color: #0a1644;
+  color: white;
   text-align: center;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 select {
@@ -71,7 +83,7 @@ select {
   margin-bottom: 0px;
   font-family: sans-serif;
   font-weight: normal;
-  color: #0a1644;
+  color: #203f90;
   text-align: center;
 }
 
@@ -88,13 +100,15 @@ select {
   height: 35px;
   border-radius: 20px;
   border-top-right-radius: 1px;
-  border: 1px solid grey;
+  border: 2px solid #c08e42;
+  background-color: #203f90;
+  color: white;
 }
 
-.italy, .paris, .cancun {
+.show-pizza {
   display: block;
   margin: auto;
-  width: 400px;
+  width: 350px;
   border: 22px solid rgba(221, 79, 33, 0.88);
   border-top-right-radius: 2px;
   border-top-left-radius: 45px;
@@ -104,7 +118,8 @@ select {
   font-family: sans-serif;
   font-style: Oswald;
   font-weight: normal;
-  color: #0a1644;
+  background-color: #203f90;
+  color: white;
   text-align: center;
-  font-size: 15pt;
+  font-size: 13pt;
 }

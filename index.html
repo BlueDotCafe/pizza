@@ -6,72 +6,47 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title>Happy Father's Day, Dad!</title>
+    <title>TRUE LOVE PIZZA</title>
   </head>
   <body>
      <div class="container">
-       <div class="italy suggestion">
-         <p>'CAUSE HE BUILDS STUFF!</p>
-         <p>He is a true creative and has the brains to back it up!
-         He's built his kids desks, doll houses, farm equipment and his own
-         welded-metal art. If you think that's great? He built the house
-         that we grew up in with his own two hands!</p>
-       </div>
-       <div class="paris suggestion">
-         <p>'CAUSE HE STANDS BY YOU!</p>
-         <p>He has been working his buns of for how many years?!! He has taken pride
-         in working his land for his family and provided all of us with a life, to which we are so grateful. I consider myself beyond lucky to have such a person in my life! Let alone that he is my Dad!</p>
-       </div>
-       <div class="cancun suggestion">
-         <p>'CAUSE HE'S MODEST!</p>
-         <p>As smart, hard-working and able as he is, I don't think I've ever met anyone as humble about it than my Dad. He is the true essense of authentic. I don't believe he has a false bone in his body... and for that and many other reasons he has been one of my greatest role models. We are lucky to know him!</p>
-       </div>
-      <h4><div class="well">MAKE SELECTIONS TO SEE<br>THE DIFFERENT WAYS <br>
-        THAT DAD IS AWESOME!</div></h4>
-      <img id="play" src="img/tenor.gif" loop=1000 />
-      <form id="vaca-form">
-       <label for="eat">MY DAD'S FAVORITE FOODS:</label><br>
-       <select id="eat" class="custom-select">
-        <option selected>select one</option>
-        <option value="i">peanut brittle!</option>
-        <option value="p">those little apricot thingy-s!</option>
-        <option value="c">all the stuff that mom cooks!</option>
-      </select>
-      <br>
-      <label for="vaca">MY DAD INVENTS STUFF:</label><br>
-      <select id="vaca" class="custom-select">
-         <option selected>select one</option>
-         <option value="i">He drew the floor plan to our house!</option>
-         <option value="p">Then he built our house!</option>
-         <option value="c">He's invented several pieces of farm gear!</option>
-      </select>
-      <br>
-      <label for="dinner">IN OUR HOUSE, MY DAD DID:</label><br>
-      <select id="dinner" class="custom-select">
-        <option selected>select one</option>
-        <option value="i">The plumbing!</option>
-        <option value="p">Setting the windows!</option>
-        <option value="c">He did practically everthing!</option>
-      </select>
-      <br>
-      <label for="weekend">WE LOVE OUR DAD:</label><br>
-      <select id="weekend"class="custom-select">
-       <option selected>select one</option>
-       <option value="i">He is dependable, even when the world is not!</option>
-       <option value="p">He is thoughtful and gracious!</option>
-       <option value="c">He is smart and creative!</option>
-        </select>
-      <br>
-      <label for="wear">I'D LIKE TO MAKE MY DAD:</label><br>
-      <select id="wear" class="custom-select">
-        <option selected>select one</option>
-        <option value="i">Gluten Free Cookies!</option>
-        <option value="p">A big fat meat loaf!</option>
-        <option value="c">Anything he'd like!</option>
-      </select>
-      <br>
-      <button id="btn-red" type="submit" class="btn btn-danger btn-large">PLACE PIZZA ORDER</button>
-      </form>
+       <div class="row">
+         <div class="col-md-2">
+           <div class="show-pizza">
+             <p>Your total is:<span id="price"></span></p>
+             <p>YOUR PIZZA IS ON IT'S WAY!</p>
+             <p>True Love is dedicated to providing the most awesome artizan pizza in the PDX area. Please
+             be patient and allow<br>60 minutes for your delivery.<br>It will be worth the wait!</p>
+           </div>
+         </div>
+         <div class="col-md-10">
+          <h4><div class="well">true love doesn't have <br>a lot of options...<br>just great pizza!</div></h4>
+          <img id="play" src="img/tenor.gif" loop=1000 />
+          <form id="pizza-form">
+            <div class="form-group">
+              <label for="size">how hungry are you?</label><br>
+              <select id="size" class="custom-select">
+               <option selected>select one</option>
+               <option value="10">medium 10" pizza $10.00</option>
+               <option value="12">large 12" pizza $12.00</option>
+               <option value="16">xl 16" pizza $16.00</option>
+             </select>
+            </div>
+            <div class="form-group">
+              <label for="toppings">each topping only $2.00</label><br>
+              <input type="checkbox" name="toppings" value="1">&nbsp;extra cheese<br>
+              <input type="checkbox" name="toppings" value="1">&nbsp;pepperoni
+              <input type="checkbox" name="toppings" value="1">&nbsp;sausage<br>
+              <input type="checkbox" name="toppings" value="1">&nbsp;mushrooms
+              <input type="checkbox" name="toppings" value="1">&nbsp;peppers<br>
+            </div>
+          <button id="btn-red" type="submit" class="btn btn-danger btn-large">PLACE PIZZA ORDER</button>
+          </form>
+        </div>
+
+
+
+     </div>
     </div>
  </body>
 </html>
