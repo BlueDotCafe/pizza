@@ -15,18 +15,8 @@ Pizzaorder.prototype.cost = function() {
   $("input:checkbox[name=toppings]:checked").each(function() {
       cost = parseInt(cost) + parseInt($(this).val());
     });
-
   return cost;
 };
-
-
-
-
-
-
-
-
-
 
 
 $(document).ready(function() {
@@ -38,6 +28,5 @@ $(document).ready(function() {
     var cost = myPizzaOrder.cost();
     $("#price").text("$" + cost);
     $(".show-pizza").show();
-
   });
 });

@@ -10,7 +10,6 @@ border-bottom-right-radius: 1px;
 border-bottom-left-radius: 45px;
 }
 
-
 .well {
   width: 247px;
   display: block;
@@ -40,13 +39,9 @@ h4 {
   border-top-right-radius: 45px;
 }
 
-
 img {
   height: 345px;
-
 }
-
-
 
 #pizza-form {
   color: #203f90;
@@ -65,7 +60,6 @@ img {
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
 }
-
 
 label {
   font-family: sans-serif;
@@ -86,7 +80,6 @@ select {
   color: #203f90;
   text-align: center;
 }
-
 
 #btn-red {
   display: block;
