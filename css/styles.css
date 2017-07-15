@@ -2,9 +2,9 @@
 display: block;
 margin: auto;
 width: 400px;
-border: 22px solid rgba(221, 79, 33, 0.88);
-border-top: 22px solid rgba(221, 79, 33, 0.88);
-border-bottom: 22px solid rgba(221, 79, 33, 0.88);
+border: 22px solid #c64d2f;
+border-top: 22px solid #c64d2f;
+border-bottom: 22px solid #c64d2f;
 margin-bottom: 0px;
 border-bottom-right-radius: 1px;
 border-bottom-left-radius: 45px;
@@ -25,7 +25,7 @@ border-bottom-left-radius: 45px;
 }
 
 h4 {
-  background-color: rgba(221, 79, 33, 0.88);
+  background-color: #c64d2f;
   color: #0a1644;
   font-size: 11pt;
   font-weight: normal;
@@ -50,7 +50,7 @@ img {
 
 #pizza-form {
   color: #203f90;
-  background-color: rgba(221, 79, 33, 0.88);
+  background-color: #c64d2f;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 22px;
@@ -109,7 +109,7 @@ select {
   display: block;
   margin: auto;
   width: 350px;
-  border: 22px solid rgba(221, 79, 33, 0.88);
+  border: 22px solid #c64d2f;
   border-top-right-radius: 2px;
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
