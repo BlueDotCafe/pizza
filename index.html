@@ -12,7 +12,7 @@
      <div class="container">
        <div class="row">
          <div class="col-md-2">
-           <div class="show-pizza">
+           <div class="show-pizza" style="display: none;">
              <p>Your total is:<span id="price"></span></p>
              <p>YOUR PIZZA IS ON IT'S WAY!</p>
              <p>True Love is dedicated to providing the most awesome artizan pizza in the PDX area. Please
@@ -26,19 +26,18 @@
             <div class="form-group">
               <label for="size">how hungry are you?</label><br>
               <select id="size" class="custom-select">
-               <option selected>select one</option>
-               <option value="10">medium 10" pizza $10.00</option>
-               <option value="12">large 12" pizza $12.00</option>
-               <option value="16">xl 16" pizza $16.00</option>
+               <option value="m">medium 10" pizza $10.00</option>
+               <option value="l">large 12" pizza $12.00</option>
+               <option value="xl">xl 16" pizza $16.00</option>
              </select>
             </div>
             <div class="form-group">
               <label for="toppings">each topping only $2.00</label><br>
-              <input type="checkbox" name="toppings" value="1">&nbsp;extra cheese<br>
-              <input type="checkbox" name="toppings" value="1">&nbsp;pepperoni
-              <input type="checkbox" name="toppings" value="1">&nbsp;sausage<br>
-              <input type="checkbox" name="toppings" value="1">&nbsp;mushrooms
-              <input type="checkbox" name="toppings" value="1">&nbsp;peppers<br>
+              <input type="checkbox" name="toppings" value="2">&nbsp;extra cheese<br>
+              <input type="checkbox" name="toppings" value="2">&nbsp;pepperoni
+              <input type="checkbox" name="toppings" value="2">&nbsp;sausage<br>
+              <input type="checkbox" name="toppings" value="2">&nbsp;mushrooms
+              <input type="checkbox" name="toppings" value="2">&nbsp;peppers<br>
             </div>
           <button id="btn-red" type="submit" class="btn btn-danger btn-large">PLACE PIZZA ORDER</button>
           </form>
